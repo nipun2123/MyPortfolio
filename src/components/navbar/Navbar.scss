@@ -1,0 +1,25 @@
+.navbar{
+    height: 100px;
+    margin-left: 450px;
+   
+   
+   .wrapper{
+        
+        max-width: 1366px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        height: 100%;
+       
+        span{
+            font-weight: bold;
+        }
+
+        a{
+            margin-left: auto;
+            margin-right: auto;
+            cursor: pointer;
+           
+        }
+    }
+}
