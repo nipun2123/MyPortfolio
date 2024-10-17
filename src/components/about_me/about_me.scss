@@ -4,27 +4,13 @@
 
   .title {
     text-align: center;
-    margin: 20px;
+    margin: 2%;
 
   }
 
 
-
   .bubbleUI {
-    position: relative;
-    background-color: rgba(0, 0, 0, 0) !important;
-    width: 80%;
-    max-width: 800px;
     height: 200px;
-    border-radius: 50px;
-    background-color: white !important;
-    overflow: hidden !important;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-
-    margin-bottom: 10px;
   }
 
   .skillBubble {
