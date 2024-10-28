@@ -1,18 +1,31 @@
+@import "../../App.scss";
+
 .navbar{
+    position: relative;
     height: 100px;
-    margin-left: 450px;
-   
-   
+    justify-content: end;
+    margin-right: 100px;
+ 
    .wrapper{
-        
+        position: absolute;
         max-width: 1366px;
         margin: auto;
         display: flex;
         align-items: center;
         height: 100%;
-       
+        background: none;
+        gap: 10px;
+
+        @include mobile{
+            margin-left: 160px;
+         }
+      
+        
+
+   
         span{
             font-weight: bold;
+            font-size: 17px;
         }
 
         a{

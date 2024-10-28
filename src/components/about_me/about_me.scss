@@ -1,16 +1,48 @@
+@import "../../App.scss";
 .wrapper {
   background: linear-gradient(180deg, #0c0c1d, #111132);
   height: 100%;
+  position: relative;
+
+  .titleBar{
+
+    display: flex;
+    flex-direction: row;
+
+    a{
+      margin-left: auto;
+    }
+    
+  }
+
+  .contentWrapper{
+      @include mobile{
+          margin-top: 10%;
+      }
+
+  }
+
+ 
+
+
+
 
   .title {
     text-align: center;
     margin: 2%;
+    color: orange;
 
+   
   }
 
-
+  .card{
+    background-color: #29293a;
+    color: white;
+  }
+ 
   .bubbleUI {
     height: 200px;
+    width: 100%;
   }
 
   .skillBubble {
@@ -28,5 +60,7 @@
     opacity: 0.5;
   }
 
+
+  
 
 }

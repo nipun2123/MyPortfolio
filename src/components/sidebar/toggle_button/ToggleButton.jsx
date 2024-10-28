@@ -22,9 +22,9 @@ const ToggleButton = ({setOpen}) => {
 
 <motion.svg width="36" height="26" viewBox="0 0 36 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 
-<motion.path d="M5 20H31" stroke="black" stroke-width="2" stroke-linecap="round" variants={{open:{d:"M6 21.3848L24.3848 3"}, close:{d:"M5 20H31"}}} />
-<motion.path d="M5 13H31" stroke="black" stroke-width="2" stroke-linecap="round"  variants={{open:{opacity:0}, close:{opacity:1}}} />
-<motion.path d="M5 6H31" stroke="black" stroke-width="2" stroke-linecap="round" variants={{open:{d:"M6 3.01839L24.3848 21.4032"}, close:{d:"M5 6H31"}}}  />
+<motion.path d="M5 20H31" stroke="white" stroke-width="2" stroke-linecap="round" variants={{open:{d:"M6 21.3848L24.3848 3"}, close:{d:"M5 20H31"}}} />
+<motion.path d="M5 13H31" stroke="white" stroke-width="2" stroke-linecap="round"  variants={{open:{opacity:0}, close:{opacity:1}}} />
+<motion.path d="M5 6H31" stroke="white" stroke-width="2" stroke-linecap="round" variants={{open:{d:"M6 3.01839L24.3848 21.4032"}, close:{d:"M5 6H31"}}}  />
 
 </motion.svg>
 

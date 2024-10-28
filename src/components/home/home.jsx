@@ -40,17 +40,21 @@ const home = () => {
                 </span>
             </div>
             <div className="buttonContainer">
-                <a href="">
+
+            <a href="#Contact Me">
+                <button>
+                    Contact Me
+                </button>
+                </a>
+
+                <a href="#">
                 <button>
                     Download CV
                 </button>
                 </a>
 
-                <a href="#Contact">
-                <button>
-                    Contact Me
-                </button>
-                </a>
+
+                
             </div>
             <motion.div className='scrolldown' variants={itemVariants} animate="scrolldown">
                 <img src="/arrow.png" alt="Scroll Down"    />

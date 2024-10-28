@@ -13,20 +13,19 @@ const variants = {
   },
 }
 
-const ItemLinks = () => {
+const ItemLinks = ({setOpen}) => {
 
 const items = [
-    "HomePage",
+    "Home",
     "About Me",
-    "What I Do",
-    "Portfolio",
-    "Contact"
+    "Featured Works",
+    "Contact Me"
 ]
 
   return (
     <motion.div className='links' >
         {items.map(item=>(
-            <motion.a href={`#${item}`} key={item} variants={variants} >{item} </motion.a>
+            <motion.a  href={`#${item}`} key={item} variants={variants} onClick={() =>setOpen(prev=>!prev)} >{item} </motion.a>
         ))}
     </motion.div>
   )

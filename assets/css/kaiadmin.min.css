@@ -46,9 +46,13 @@ activity-feed{padding:15px;list-style:none}
 .activity-feed 
 .feed-item .text{
    position:relative;
+   font-size: 17px;
    top:-3px
 }
-
+.activity-feed 
+.feed-item .date{
+   font-size: 16px;
+}
 .activity-feed 
 .feed-item,body[data-background-color=dark] 
 .activity-feed 
