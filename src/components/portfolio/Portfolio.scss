@@ -82,7 +82,10 @@
         text-align: center;
 
       
-      
+        @include mobile{
+          gap: 10px;
+          margin-top: 50px;
+      }
         p{
           color: rgb(175, 174, 174);
           font-size: 20px;

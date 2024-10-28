@@ -36,8 +36,15 @@ const home = () => {
             <div className="textContainer" >
                 <h1 >Software Engineer</h1>
                 <span className="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas nibh risus, non finibus felis pellentesque at. Duis magna mauris, ultrices sed turpis nec, consectetur mollis nisl. Duis ultrices ex a nulla suscipit, vel pellentesque ante aliquet. Quisque dapibus porta dolor.
-                </span>
+                Welcome! I'm Nipun Amarakoon, a passionate and results-oriented software engineer 
+                with over four years of experience in full-stack development and DevOps practices.
+                 With expertise in Java Spring Boot, microservices architecture, and CI/CD pipelines, 
+                 I’ve built scalable, impactful solutions that are both efficient and resilient. 
+                 My approach combines a strong foundation in backend technologies with responsive 
+                 front-end design, ensuring seamless and user-centered applications. Dedicated to 
+                 delivering high-quality software that truly makes a difference, I’m excited to bring 
+                 innovative ideas to life. Let’s build something extraordinary together!
+                 </span>
             </div>
             <div className="buttonContainer">
 
@@ -47,7 +54,7 @@ const home = () => {
                 </button>
                 </a>
 
-                <a href="#">
+                <a href='/Nipun-Amarakoon-CV.pdf' download={'Nipun-Amarakoon.pdf'}>
                 <button>
                     Download CV
                 </button>

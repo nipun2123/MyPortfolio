@@ -24,7 +24,8 @@ export default function skill_bubble(props) {
           <p
             style={{
               color: props.textColor,
-              fontSize: 14,
+              fontSize: 15,
+              fontWeight: 400,
               marginBottom: 6,
               fontWeight: 1000,
               maxWidth: 150,
