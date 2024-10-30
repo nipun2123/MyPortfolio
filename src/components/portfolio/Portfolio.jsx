@@ -20,7 +20,7 @@ const items = [
   desc:"This is a responsive website to represent my excellence.",
   sub:"Technology included: React.js, JavaScript, Bootstrap 5, CSS.",
   code:"https://github.com/nipun2123/MyPortfolio",
-  demo:""
+  demo:"https://nipunamarakoon.info/"
 },
 {
   id:3,
@@ -34,7 +34,7 @@ const items = [
 {
     id:4,
     title:"Traffic Fine Penalty Control web application ",
-    img:"https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=400",
+    img:"/portfolio/traffic.jpg",
     desc:"This is a proposed web-based traffic penalty control system for Sri Lanka. Officers can view and issue penalties to drivers using the web application. Drivers can also view their penalty details. They will be able to pay fines at the police station, which also provides the facility to view license and penalty details.",
     sub:"Technology included: Java, Spring MVC, Spring Security, JSP, Hibernate, Thymeleaf, CSS, Bootstrap, and PostgreSQL.",
     code:"https://github.com/nipun2123/eMotor",
@@ -43,7 +43,7 @@ const items = [
 {
     id:5,
     title:"Laboratory Appointment System",
-    img:"https://images.pexels.com/photos/1181243/pexels-photo-1181243.jpeg?auto=compress&cs=tinysrgb&w=400",
+    img:"/portfolio/laboratory.jpg",
     desc:"This is a web-based laboratory appointment system that maintains patient appointments and test reports. Additionally, it manages patient and staff accounts.",
     sub:"Technology included: Java, Jersey, MySQL, JavaScript, jQuery, AJAX, Bootstrap, W3CSS.",
     code:"https://github.com/nipun2123/Laboratory_Appoinment_System",
@@ -52,7 +52,7 @@ const items = [
 {
     id:6,
     title:"Handy Man Android Application  ",
-    img:"https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=400",
+    img:"/portfolio/handyman.jpg",
     desc:"This an Android application for buying and selling handyman services. Handymen can advertise their services and manage their assigned jobs. Clients can find suitable handymen and communicate with them through messaging via the app.",
     sub:"Technology included: Java, Firebase  .",
     code:"https://github.com/nipun2123/eBass",
