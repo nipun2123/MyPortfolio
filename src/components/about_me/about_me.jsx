@@ -1,4 +1,3 @@
-import { div, head } from 'framer-motion/client';
 import './about_me.scss';
 import React, { useState, useRef} from "react";
 import BubbleUI, { defaultOptions } from "react-bubble-ui";
@@ -34,13 +33,6 @@ const about_me = () => {
     setSkOpen(false);
   }
 
-
-  const isDesktopOrLaptop = useMediaQuery(
-    { minWidth: 1340 },
-    undefined,
-    handleDesktopMediaQueryChange
-  )
-  // const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
   const isTablet = useMediaQuery(
     {maxWidth: 1340},
     undefined,
@@ -52,10 +44,6 @@ const about_me = () => {
     undefined,
     handleMobileMediaQueryChange
   )
-  // const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
-  // const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
-
-
 
 
   const ref = useRef();

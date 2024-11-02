@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.scss'
+import './activityfeed.min.css'
 import Navbar from './components/navbar/Navbar'
 import Home from './components/home/home'
 import AboutMe from './components/about_me/about_me'
@@ -12,7 +13,6 @@ function App() {
    <div>
        <article>
 
-<link rel="stylesheet" href="assets/css/kaiadmin.min.css"/>
 </article>
 
     <section id="Home"> <Navbar/> 
