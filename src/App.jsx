@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.scss'
 import './activityfeed.min.css'
 import Navbar from './components/navbar/Navbar'
