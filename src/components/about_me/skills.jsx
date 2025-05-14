@@ -5,6 +5,7 @@ const skills = [{"name": "Java", "backgroundColor": "#d64161", "textColor": "whi
     {"name": "PHP", "backgroundColor": "#034f84", "textColor": "white"},  
     {"name": "Spring Boot", "backgroundColor": "#f7786b", "textColor": "white"}, 
     {"name": "React.js", "backgroundColor": "#ffef96", "textColor": "white"}, 
+    {"name": "React Native", "backgroundColor": "#5b9aa0", "textColor": "white"}, 
     {"name": "Laravel", "backgroundColor": "#fefbd8", "textColor": "white"}, 
     {"name": "AWS", "backgroundColor": "#4040a1", "textColor": "white"}, 
     {"name": "Microservices", "backgroundColor": "#588c7e", "textColor": "white"}, 

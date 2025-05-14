@@ -10,16 +10,8 @@ import { useMediaQuery } from 'react-responsive';
 
 const about_me = () => {
 
-  
-  const handleDesktopMediaQueryChange = (matches) => {
 
-    setExOpen(true);
-    setQuOpen(true);
-    setSkOpen(true);
-
-  }
-
-  const handleTabletMediaQueryChange = (matches) => {
+  const handleDesktopOrTabletMediaQueryChange = (matches) => {
    
     setExOpen(true);
     setQuOpen(true);
@@ -33,10 +25,11 @@ const about_me = () => {
     setSkOpen(false);
   }
 
-  const isTablet = useMediaQuery(
-    {maxWidth: 1340},
+
+  const isDesktopOrTablet = useMediaQuery(
+    {maxWidth: 1600},
     undefined,
-    handleTabletMediaQueryChange
+    handleDesktopOrTabletMediaQueryChange
   )
 
   const isMobile = useMediaQuery(
@@ -80,11 +73,11 @@ const about_me = () => {
 
       const [exOpen, setExOpen] = useState(!isMobile);
       const [quOpen, setQuOpen] = useState(!isMobile);
-      const [skOpen, setSkOpen] = useState(!isMobile);
+      const [skOpen, setSkOpen] = useState(!isDesktopOrTablet);
       
 
      function handleExBtn(e){
-      if(isTablet && !exOpen){
+      if(isDesktopOrTablet && !exOpen){
         setSkOpen(false);
       }
       if(isMobile){
@@ -96,7 +89,7 @@ const about_me = () => {
      }
 
      function handleQuBtn(e){
-      if(isTablet && !quOpen){
+      if(isDesktopOrTablet && !quOpen){
         setSkOpen(false);
       }
       if(isMobile){
