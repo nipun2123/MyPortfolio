@@ -173,14 +173,14 @@ const about_me = () => {
             <time className="date" >July 2023 to August 2023</time>
             <span className="text"><b>Freelance Software Developer - UK</b></span>
         </li>
-        <li className="feed-item-warning">
+        <li className="feed-item feed-item-warning">
             <time className="date">April 2021 to December 2021</time>
             <span className="text"><b>Software Engineer</b>
               <br />
               Tunclab Solutions
             </span>
         </li>
-        <li className="feed-item-info">
+        <li className="feed-item feed-item-info">
             <time className="date">April 2020 to April 2021</time>
             <span className="text"><b>Software Engineer Intern</b>
               <br />
