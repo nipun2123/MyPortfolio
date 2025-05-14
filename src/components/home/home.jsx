@@ -37,8 +37,8 @@ const home = () => {
                 <h1 >Software Engineer</h1>
                 <span className="description">
                 Welcome! I'm Nipun Amarakoon, a passionate and results-oriented software engineer 
-                with over four years of experience in full-stack development and DevOps practices.
-                 With expertise in Java Spring Boot, microservices architecture, and CI/CD pipelines, 
+                with a strong background in full-stack development.
+                 With expertise in Java Spring Boot, microservices architecture, and AWS, 
                  I’ve built scalable, impactful solutions that are both efficient and resilient. 
                  My approach combines a strong foundation in backend technologies with responsive 
                  front-end design, ensuring seamless and user-centered applications. Dedicated to 
