@@ -156,21 +156,35 @@ const about_me = () => {
     <ol className="activity-feed">
        
         <li className="feed-item feed-item-success">
-            <time className="date">June 2022 to Present</time>
-            <span className="text"><b>Software Engineer</b>
+            <time className="date">April 2025 to Present</time>
+            <span className="text"><b>Freelance Lead Developer</b>
               <br />
-              Visiro Global Solutions - Colombo, Sri Lanka
+              ProveIt
+            </span>
+        </li>
+        <li className="feed-item feed-item-primary">
+            <time className="date">March 2025 to Present</time>
+            <span className="text"><b>Freelance Full-Stack Engineer</b>
+              <br />
+              A6X LLC
             </span>
         </li>
         <li className="feed-item feed-item-danger">
-            <time className="date" >July 2023 to Sep 2023</time>
-            <span className="text"><b>Freelance Software Engineer - UK</b></span>
+            <time className="date" >July 2023 to August 2023</time>
+            <span className="text"><b>Freelance Software Developer - UK</b></span>
         </li>
-        <li className="feed-item">
-            <time className="date">July 2019 to Nov 2021</time>
-            <span className="text"><b>Associate Software Engineer </b>
+        <li className="feed-item-warning">
+            <time className="date">April 2021 to December 2021</time>
+            <span className="text"><b>Software Engineer</b>
               <br />
-              Visiro Global Solutions - Colombo, Sri Lanka
+              Tunclab Solutions
+            </span>
+        </li>
+        <li className="feed-item-info">
+            <time className="date">April 2020 to April 2021</time>
+            <span className="text"><b>Software Engineer Intern</b>
+              <br />
+              Tunclab Solutions
             </span>
         </li>
 
