@@ -69,7 +69,7 @@ const home = () => {
         </motion.div>
 
         <div>
-        <img className='image' src="/profile.png" alt="My Pic" />
+        <img className='image' src="/profile.webp" alt="My Pic" />
         </div>
     </div>
   )

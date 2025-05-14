@@ -4,55 +4,64 @@ import { useRef } from "react";
 
 
 const items = [
-    {
+  {
     id:1,
     title:"VibezVenue (Ongoing)",
-    img:"/portfolio/microservice.jpg",
+    img:"/portfolio/microservice.webp",
     desc:"This is an event management and ticketing website based on microservice architecture. It incorporates service discovery with Eureka and utilizes Spring Cloud Gateway for API management. Authentication and authorization are handled through Keycloak. Resilience is ensured with the Circuit Breaker pattern using Resilience4J. Spring Cloud Sleuth is employed for request tracing, and Kafka enables event-driven architecture. For monitoring, Prometheus and Grafana provide real-time insights.",
     sub:"Technology included: Java, Spring, Kafka, Resilience4J, Zipkin, Docker, Kubernetes, PostgreSQL, Prometheus, Grafana.",
     code:"https://github.com/nipun2123/VibezVenue",
     demo:""
 },
+  {
+    id:2,
+    title:"URLShortener",
+    img:"/portfolio/shortfy-diagram.webp",
+    desc:"This is a serverless URL shortener with distributed caching using Redis and persistent storage in DynamoDB. It has automated infrastructure provisioning using AWS CDK, following IaC and AWS best practices.",
+    sub:"Technology included: AWS Lambda, API Gateway, DynamoDB, Redis (ElastiCache), VPC, S3, AWS CDK, CloudFormation, Java, JavaScript.",
+    code:"https://github.com/nipun2123/URLShortener",
+    demo:""
+},
 {
-  id:2,
+  id:3,
   title:"My Portfolio",
-  img:"/portfolio/portfolio.jpg",
+  img:"/portfolio/portfolio.webp",
   desc:"This is a responsive website to represent my excellence.",
   sub:"Technology included: React.js, JavaScript, Bootstrap 5, CSS.",
   code:"https://github.com/nipun2123/MyPortfolio",
   demo:"https://nipunamarakoon.info/"
 },
 {
-  id:3,
+  id:4,
   title:"Automated Detection of Schizophrenia Patients",
-  img:"/portfolio/deep-learning.jpg",
+  img:"/portfolio/deep-learning.webp",
   desc:"This is a deep-learning investigation aimed at diagnosing schizophrenia based on EEG spectrogram images. It investigates the impact of utilizing different groups of EEG signals with a hybrid model consisting of ResNet50 and SVM and compares the performance of the hybrid model consisting of ResNet50 and SVM with a single SVM model.",
   sub:"Technology included: Python, CNN, ResNet50, SVM NumPy, and Matplotlib.",
   code:"https://github.com/nipun2123/Schizophrenia_detection",
   demo:""
 },
 {
-    id:4,
+    id:5,
     title:"Traffic Fine Penalty Control web application ",
-    img:"/portfolio/traffic.jpg",
+    img:"/portfolio/traffic.webp",
     desc:"This is a proposed web-based traffic penalty control system for Sri Lanka. Officers can view and issue penalties to drivers using the web application. Drivers can also view their penalty details. They will be able to pay fines at the police station, which also provides the facility to view license and penalty details.",
     sub:"Technology included: Java, Spring MVC, Spring Security, JSP, Hibernate, Thymeleaf, CSS, Bootstrap, and PostgreSQL.",
     code:"https://github.com/nipun2123/eMotor",
     demo:""
 },
 {
-    id:5,
+    id:6,
     title:"Laboratory Appointment System",
-    img:"/portfolio/laboratory.jpg",
+    img:"/portfolio/laboratory.webp",
     desc:"This is a web-based laboratory appointment system that maintains patient appointments and test reports. Additionally, it manages patient and staff accounts.",
     sub:"Technology included: Java, Jersey, MySQL, JavaScript, jQuery, AJAX, Bootstrap, W3CSS.",
     code:"https://github.com/nipun2123/Laboratory_Appoinment_System",
     demo:""
 },
 {
-    id:6,
+    id:7,
     title:"Handy Man Android Application  ",
-    img:"/portfolio/handyman.jpg",
+    img:"/portfolio/handyman.webp",
     desc:"This an Android application for buying and selling handyman services. Handymen can advertise their services and manage their assigned jobs. Clients can find suitable handymen and communicate with them through messaging via the app.",
     sub:"Technology included: Java, Firebase  .",
     code:"https://github.com/nipun2123/eBass",
